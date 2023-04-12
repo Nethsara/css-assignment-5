@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 05</title>
+    <style>
+        nav {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .logo {
+            margin-left: 15px;
+        }
+
+        .nav-text {
+            display: flex;
+            margin-right: 25px;
+        }
+
+        .nav-text>div>a {
+            padding-left: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+
+            height: auto;
+        }
+
+        .main-root {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 100%;
+
+        }
+
+        .item>img {
+            width: 100%;
+
+        }
+
+        .content-text {
+            padding: 15px;
+        }
+
+        .content-text>p {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+
+        @media(max-width:425px) {
+            .main-root {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                flex-direction: column;
+                padding-bottom: 10px;
+            }
+        }
+
+        footer {
+            width: 100%;
+            height: 40px;
+            background-color: gray;
+
+        }
+
+        footer>div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/ijse@1x.png" alt="main-logo">
+            </div>
+            <div class="nav-text">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Service</a></div>
+                <div><a href="#">Contact</a></div>
+                <div><a href="#">About</a></div>
+            </div>
+
+        </nav>
+    </header>
+    <section>
+        <div class="main-root">
+            <div class="item"><img src="assets/sdfded.gif" alt=""></div>
+            <div class="item"><img src="assets/sdfded.gif" alt=""></div>
+            <div class="item"><img src="assets/sdfded.gif" alt=""></div>
+        </div>
+        <div class="content-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
+                enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
+                unde dolorum.</p>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>All Right Reserved!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
